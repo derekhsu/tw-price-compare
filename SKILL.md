@@ -15,6 +15,8 @@ metadata:
     tags: [Shopping, Price Comparison, Taiwan, E-commerce, Feebee, FindPrice, 比價, 台灣購物]
     category: productivity
   source: https://github.com/derekhsu/tw-price-compare
+  install: >-
+    npx skills add https://github.com/derekhsu/tw-price-compare
 ---
 
 # TW Price Compare — 台灣購物網站比價

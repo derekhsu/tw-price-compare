@@ -14,5 +14,6 @@
       "description": "台灣購物網站比價 — 飛比/找找 跨站價格查詢",
       "path": "SKILL.md"
     }
-  }
+  },
+  "files": ["SKILL.md", "scripts/tw-price-compare.py"]
 }
