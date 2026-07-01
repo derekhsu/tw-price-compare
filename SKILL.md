@@ -23,6 +23,13 @@ metadata:
 
 搜尋 **Feebee（飛比）** 與 **FindPrice（找找）** 兩個比價聚合站，一次查出商品在各通路的價格並產出結構化比價表。
 
+## When to use
+
+- 用戶問「比價 X」或「X 哪邊買最便宜」
+- 用戶想比較特定商品在 momo、PChome、蝦皮、Yahoo 購物中心、樂天等台灣電商的價格
+- 用戶想知道某個商品目前的最低市價
+- 對話中出現「台灣購物」「台灣電商」「價格比較」等關鍵字時自動觸發
+
 ## 使用方式
 
 ### 直接對 AI 助理說
@@ -90,3 +97,10 @@ FindPrice 搜尋結果結構：
 - `--store` 商店關鍵字過濾
 - `--json` 輸出 JSON 格式
 - `--no-findprice` / `--no-feebee` 僅查單一站點
+
+## Files in this skill
+
+- `SKILL.md` — 技能主檔案（本文件）
+- `scripts/tw-price-compare.py` — 獨立比價腳本，支援 CLI 參數過濾與 JSON 輸出
+- `README.md` — 專案說明與跨平台安裝方式
+- `package.json` — npm 套件資訊，供 `npx skills` 識別
