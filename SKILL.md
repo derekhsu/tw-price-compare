@@ -43,13 +43,28 @@ RTX 5090 價格比較
 比價 Dyson V15
 ```
 
-### 執行獨立腳本
+### 獨立腳本
 
 ```bash
 python3 scripts/tw-price-compare.py "RTX 5090"
 python3 scripts/tw-price-compare.py --max-price 30000 "PS5 主機"
 python3 scripts/tw-price-compare.py --store 蝦皮 "Dyson V15"
 python3 scripts/tw-price-compare.py --json --no-findprice "MacBook Air"
+```
+
+## 安裝方式
+
+### Hermes Agent（Tap 推薦）
+
+```bash
+hermes skills tap add derekhsu/tw-price-compare
+hermes skills install tw-price-compare
+```
+
+### npx skills（跨平台）
+
+```bash
+npx skills add https://github.com/derekhsu/tw-price-compare
 ```
 
 ## 資料來源

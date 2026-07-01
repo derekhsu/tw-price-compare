@@ -17,6 +17,14 @@ Anthropic SKILL.md 標準格式的台灣購物比價技能，支援 **Hermes Age
 
 ### Hermes Agent
 
+**方法一：Tap（推薦）— 加一次永久可用**
+```bash
+hermes skills tap add derekhsu/tw-price-compare
+hermes skills search tw-price-compare
+hermes skills install tw-price-compare
+```
+
+**方法二：直接安裝**
 ```bash
 hermes skills install https://github.com/derekhsu/tw-price-compare
 ```
