@@ -2,7 +2,7 @@
 
 [![Hermes Agent](https://img.shields.io/badge/Hermes-Agent-6366f1)](https://hermes-agent.nousresearch.com)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-| [![npx skills](https://img.shields.io/badge/npx%20skills-add-blue)](https://github.com/vercel-labs/skills)
+[![npx skills](https://img.shields.io/badge/npx%20skills-add-blue)](https://github.com/vercel-labs/skills)
 
 Anthropic SKILL.md 標準格式的台灣購物比價技能，支援 **Hermes Agent**、**Claude Code**、**Codex CLI** 等相容平台。
 
